@@ -1,0 +1,124 @@
+
+.titles{
+  background-color: #FAFAFA;
+  height: 190px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.titles-container{
+  width: 78.5%; 
+  max-width: 1123px;
+}
+.titles-container{
+  height: 90%;
+  margin-top:15px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.titles-container>.title-3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.titles-container .text-1{
+  font-size: 15px;
+  font-weight: 500;
+  width: 22%;
+  height: 23px;
+  margin: 5px 20px 5px 0;
+}
+.categories{
+  display:flex;
+  flex-wrap: wrap;
+  height: 60%;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.asesores-options{
+  height: 74px;
+  display:flex;
+  justify-content: center;
+  align-items: end;
+}
+.asesores-options_container{
+  width: 77%;
+  display:flex;
+  justify-content: flex-end;
+}
+.asesores-options_container select{
+  border: 0.1px solid #E8E8E8;
+  width: 216px;
+  border-radius: 8px;
+  height: 47px;
+  padding: 0px 13px 0 13px;
+  color: #898989;
+  font-size: 13px;
+}
+.asesores-content{
+  height: 932px;
+  display:flex;
+  justify-content: center;
+}
+.asesores-content_container{
+  width: 79%;
+}
+.asesores-content_container .title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom:13px;
+  letter-spacing: 0.3px;
+}
+.lista-asesores{
+  height: 95%;
+  display:flex;
+  flex-wrap: wrap;
+}
+.asesor{
+  width: 550px;
+  height:161px;
+  border-radius: 5px;
+  border: 0.73px solid #E8E8E8;
+  position: relative;
+  margin-right: 18px;
+  margin-bottom:19px;
+}
+.asesor_container{
+  padding:15px 17px 20px 21px;
+}
+.asesor-izq{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  margin-right: 15px;
+}
+.asesor-der>:nth-child(1){
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom:9px;
+}
+.asesor-der>:nth-child(2){
+  font-size: 12px;
+  margin-bottom:9px;
+}
+.asesor-der>:nth-child(3){
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.btn_asesor-detalle{
+  width: 104px;
+  height: 31px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5C4FCE;
+  color: white;
+  border-radius: 8px;
+  font-size: 13px;
+}

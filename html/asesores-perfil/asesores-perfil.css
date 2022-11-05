@@ -1,0 +1,224 @@
+.asesores-perfil_dir{
+  font-size: 14px;
+}
+.asesores-perfil_dir > div, .asesores-perfil_details > div{
+  width: 78%; 
+  max-width: 1123px;
+}
+.asesores-perfil_dir > div{
+  margin-top:75px;
+}
+.asesores-perfil_details_container{
+  margin-bottom: 167px;
+}
+.asesores-perfil_details_container>:nth-child(1) {
+  width: 21%;
+}
+.asesores-perfil_details_container>:nth-child(2) {
+  width: 51%;
+}
+.asesores-perfil_details_container>:nth-child(3) {
+  width: 23.3%;
+}
+.asesores-perfil_details_container > div > div {
+  margin-bottom: 20px;
+}
+
+.asesores-perfil_details_container > div > div:last-child {
+  margin-bottom: 0px;
+}
+
+.asesores-perfil_details_container > div:nth-child(3) > div:last-child {
+  width: 184px;
+  height: 45px;
+  background: #5C4FCE;
+  border-radius: 8px;
+  color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+.asesores-perfil-block{
+  width: 100%;
+}
+.asesores-perfil-block > div {
+  padding: 17px 17px 17px 17px;
+}
+.asesores-perfil-block > div:first-child{
+  /* titulo del bloque */
+  font-size: 15px;
+  font-weight: bold;
+  border: 0.73px solid #E8E8E8; 
+  border-radius: 5px 5px 0px 0px;
+}
+.asesores-perfil-block > div:nth-child(2){
+  /* texto del bloque */
+  font-size: 13px;
+  border: 0.73px solid #E8E8E8; 
+  border-top: 0px;
+  border-radius: 0px 0px 5px 5px;
+}
+.asesores-perfil-block_experiencia > div > div:first-child{
+  padding-top: 0px;
+}
+.asesores-perfil-block_experiencia > div > div{
+  padding-top: 26px;
+  padding-bottom: 24px;
+  border-bottom: 0.73px solid #E8E8E8;
+}
+.asesores-perfil-block_experiencia > div > div:last-child{
+  border: none;
+  padding-bottom: 0px;
+}
+.asesores-perfil-block_experiencia > div > div>:first-child{
+  font-size: 14px;
+}
+
+.asesores-perfil-block_video{
+  min-height: 170px;
+}
+.asesores-perfil-block_perfil{
+  font-size: 13px;
+  border: 0.73px solid #E8E8E8; 
+  border-radius: 5px 5px 5px 5px;
+  padding: 34px 20px 31px 20px;
+}
+.asesores-perfil-block_perfil> :nth-child(2){
+  margin-top:20px;
+  line-height: 23px;
+}
+.asesores-perfil-block_perfil > div:first-child > :nth-child(2){
+  font-size: 18px;
+  font-weight: bold;
+}
+.asesores-perfil-block_perfil > div:first-child > :nth-child(3){
+  font-size: 14px;
+  font-weight: bold;
+}
+.asesores-perfil-block_fechas{
+  margin-bottom: 20px;
+}
+.asesores-perfil-block_fechas:last-child{
+  margin-bottom: 0px;
+}
+.asesores-perfil-block_fechas > div > div {
+  border: 1px solid #E8E8E8; 
+  border-radius: 5px;
+  width: 67px;
+  height: 30px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  margin-top:5px;
+  margin-right: 11px;
+}
+
+.asesores-perfil-block_description > div:nth-child(2) {
+  line-height: 23px;
+  padding: 17.8px;
+  padding-top:25px;
+}
+
+@media (max-width: 575px) {
+  .asesores-perfil_details_container> div{
+    margin-top: 20px;
+  }
+  .asesores-perfil_dir{
+    font-size: 12px;
+  }
+  .asesores-perfil-block_perfil{
+    font-size: 12px;
+  }
+  .asesores-perfil_dir > div, .asesores-perfil_details > div{
+    width: 81%; 
+  }
+  .asesores-perfil_details_container>:nth-child(1) {
+    width: 100%;
+  }
+  .asesores-perfil_details_container>:nth-child(2) {
+    width: 100%;
+  }
+  .asesores-perfil_details_container>:nth-child(3) {
+    width: 100%;
+  }
+  .asesores-perfil_dir > div{
+    margin-top:37px;
+  }
+  .asesores-perfil-block_perfil{
+    padding: 18px 20px 18px 20px;
+  }
+  .asesores-perfil-block_perfil> :nth-child(2){
+    margin-top:10px;
+  }
+  .asesores-perfil-block_description > div:nth-child(2) {
+    padding-top: 17.8px;
+    
+  }
+  .asesores-perfil-block > div:nth-child(2){
+    font-size:12px
+  }
+  .asesores-perfil_details_container{
+    margin-bottom: 29px;
+  }
+  .asesores-perfil-block_fechas >:first-child{
+    font-size: 14px;
+  }
+  .asesores-perfil-block_fechas > div > div {
+    margin-top:10px;
+  }
+  .asesores-perfil-block_fechas >:first-child{
+    margin-bottom: -5px;
+  }
+  .asesores-perfil-block_fechas{
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .asesores-perfil_details_container> div{
+    margin-top: 20px;
+  }
+  .asesores-perfil_dir > div, .asesores-perfil_details > div{
+    width: 75%; 
+  }
+  .asesores-perfil_details_container>:nth-child(1) {
+    width: 100%;
+  }
+  .asesores-perfil_details_container>:nth-child(2) {
+    width: 100%;
+  }
+  .asesores-perfil_details_container>:nth-child(3) {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .asesores-perfil_dir > div, .asesores-perfil_details > div{
+    width: 90%; 
+  }
+  .asesores-perfil_details_container>:nth-child(1) {
+    width: 26%;
+  }
+  .asesores-perfil_details_container>:nth-child(2) {
+    width: 38%;
+  }
+  .asesores-perfil_details_container>:nth-child(3) {
+    width: 29.3%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .asesores-perfil_dir > div, .asesores-perfil_details > div{
+    width: 90%; 
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+}
+
+@media (min-width: 1400px) {
+}

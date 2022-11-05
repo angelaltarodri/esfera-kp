@@ -1,0 +1,48 @@
+doctype html
+html
+  head
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
+    link(rel="stylesheet" href="style.css")
+    link(rel="stylesheet" href="./asesores-fijarfecha/asesores-fijarfecha.css")
+    link(rel="preconnect" href="https://fonts.googleapis.com")
+    link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet")
+  body.d-flex.justify-content-center.align-items-center(style="background-color: gray")
+    div.asesores-fijarfecha_container
+      div
+        div.asesores-fijarfecha_persona.d-flex.align-items-center
+          div
+            img(src="https://pbs.twimg.com/media/Fgi241WWYAUNXBy?format=png&name=120x120", alt="", style="outline: 5px solid #0BBD68;;")
+          div
+            div Stuar Manson
+            div.d-flex.align-items-center
+              div(style="width: 10px; height: 10px; border-radius: 50%; background-color: #0BBD68; margin-right: 5px")
+              div En linea
+        div.asesores-fijarfecha_input
+          div(style="margin-bottom:7px") Proporciona 3 opciones de fecha y hora para la reunion
+          div
+            div
+              select
+                option(value="") Lunes 31 de Octubre, 2022
+              select
+                option(value="") 11:00 AM
+            div 
+              select
+                option(value="") Lunes 31 de Octubre, 2022
+              select
+                option(value="") 11:00 AM
+            div 
+              select
+                option(value="") Lunes 31 de Octubre, 2022
+              select
+                option(value="") 11:00 AM
+        div.asesores-fijarfecha_input(style="margin-top:40px;")
+          div Escribe tu mail para la confirmación de la cita
+          div
+            input(type="text" placeholder="Email")
+        div.asesores-fijarfecha_btns.d-flex
+          div Cancelar
+          div Solicitar reunión

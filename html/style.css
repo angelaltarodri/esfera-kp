@@ -1,0 +1,86 @@
+.bb{
+  border: 1px solid black;
+}
+.rb{
+  border: 1px solid red;
+}
+.fw{
+  color: white;
+}
+.fp{
+  color: #5C4FCE;
+}
+*{
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  overflow-x: hidden;
+  position: relative;
+}
+article{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.btn-1 {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  background-color: black;
+  border-radius: 6.6px
+}
+@media (max-width: 575px) {
+  .only-desktop{
+    display: none;
+  }
+  .only-mobile{
+    display: flex;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .only-desktop{
+    display: none;
+  }
+  .only-mobile{
+    display: flex;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .only-desktop{
+    display: flex;
+  }
+  .only-mobile{
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .only-desktop{
+    display: flex;
+  }
+  .only-mobile{
+    display: none;
+  }
+
+  
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .only-desktop{
+    display: flex;
+  }
+  .only-mobile{
+    display: none;
+  }
+
+}
+
+@media (min-width: 1400px) {
+  .only-desktop{
+    display: flex;
+  }
+  .only-mobile{
+    display: none;
+  }
+}

@@ -1,0 +1,108 @@
+doctype html
+html
+  head
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
+    link(rel="stylesheet" href="style.css")
+    link(rel="stylesheet" href="./nav/nav.css")
+    link(rel="stylesheet" href="./footer/footer.css")
+    link(rel="stylesheet" href="./landing/landing.css")
+    link(rel="stylesheet" href="./prontodisponible/prontodisponible.css")
+    link(rel="preconnect" href="https://fonts.googleapis.com")
+    link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet")
+  body
+    include nav
+    section.part-1.d-flex.flex-column.justify-content-center
+      div.part-1-container.d-flex.flex-column.justify-content-between
+        div.title-1.fw Los mejores expertos en línea para ti, encuentralos aquí
+        div.description.fw Busca la especialidad de tu interés
+        input(type='text' placeholder="Elige la categoría que necesitas").d-flex.p-3.p1-input-text
+        div.d-flex.align-items-center.justify-content-between.p1-mas-buscados
+          div.fw Más buscados: 
+          div.fw.btn-1.p1-btn Marketing Digital
+          div.fw.btn-1.p1-btn Diseño y UX
+        div.btn-3.fw.p1-btn-buscar Buscar
+    section.sec-2.d-flex.flex-column.align-items-center.justify-content-start
+      div.d-flex.flex-column.align-items-center.justify-content-center.part-2
+        div.title-2 Especialidades
+        div.part-2-container
+          div.esp-container.d-flex.justify-content-between
+            div.esp-circle
+              img(src="https://pbs.twimg.com/media/FganZUQXgAAM1b2?format=png&name=120x120", alt="")
+            div.esp-text
+              div Marketing Digital
+              div It is a long established fact that a reader will be distracted by the readable content of a page.
+          div.esp-container.d-flex.justify-content-between
+            div.esp-circle
+              img(src="https://pbs.twimg.com/media/FganZUQXgAAM1b2?format=png&name=120x120", alt="")
+            div.esp-text
+              div Marketing Digital
+              div It is a long established fact that a reader will be distracted by the readable content of a page.
+          div.esp-container.d-flex.justify-content-between.p2-only-desktop
+            div.esp-circle
+              img(src="https://pbs.twimg.com/media/FganZUQXgAAM1b2?format=png&name=120x120", alt="")
+            div.esp-text
+              div Marketing Digital
+              div It is a long established fact that a reader will be distracted by the readable content of a page.
+          div.esp-container.d-flex.justify-content-between
+            div.esp-circle
+              img(src="https://pbs.twimg.com/media/FganZUlX0AAsP5Q?format=png&name=120x120", alt="")
+            div.esp-text
+              div Finanzas
+              div It is a long established fact that a reader will be distracted by the readable content of a page.
+          div.esp-container.d-flex.justify-content-between
+            div.esp-circle
+              img(src="https://pbs.twimg.com/media/FganZUlX0AAsP5Q?format=png&name=120x120", alt="")
+            div.esp-text
+              div Finanzas
+              div It is a long established fact that a reader will be distracted by the readable content of a page.
+          div.esp-container.d-flex.justify-content-between.p2-only-desktop
+            div.esp-circle
+              img(src="https://pbs.twimg.com/media/FganZUlX0AAsP5Q?format=png&name=120x120", alt="")
+            div.esp-text
+              div Finanzas
+              div It is a long established fact that a reader will be distracted by the readable content of a page.
+          div.esp-container.d-flex.justify-content-between
+            div.esp-circle
+              img(src="https://pbs.twimg.com/media/FganZU7XEAEhOh5?format=png&name=120x120", alt="")
+            div.esp-text
+              div Startup
+              div It is a long established fact that a reader will be distracted by the readable content of a page.
+          div.esp-container.d-flex.justify-content-between
+            div.esp-circle
+              img(src="https://pbs.twimg.com/media/FganZU7XEAEhOh5?format=png&name=120x120", alt="")
+            div.esp-text
+              div Startup
+              div It is a long established fact that a reader will be distracted by the readable content of a page.
+          div.esp-container.d-flex.justify-content-between.p2-only-desktop
+            div.esp-circle
+              img(src="https://pbs.twimg.com/media/FganZU7XEAEhOh5?format=png&name=120x120", alt="")
+            div.esp-text
+              div Startup
+              div It is a long established fact that a reader will be distracted by the readable content of a page.
+        div(style="color:#5C4FCE") Ver todas
+    section(style="height: 748px; background-color: #FAFAFA;").d-flex.align-items-center.justify-content-center
+      div.d-flex.justify-content-center.part-3
+        div
+          img(src="https://pbs.twimg.com/media/FgbTKisXoAErMsh?format=png&name=small", alt="")
+        div.d-flex.flex-column.justify-content-center
+          div.title-2 Kunde en 3 pasos
+          div 
+            div.d-flex.align-items-center.p3-item
+              div.p3-circle.mr-2 1
+              div.p3-desc Busca el tema o la especialidad de tu interés
+            div.d-flex.align-items-center.p3-item
+              div.p3-circle.mr-2 2
+              div.p3-desc Selecciona el experto con el que deseas trabajar
+            div.d-flex.align-items-center.p3-item
+              div.p3-circle.mr-2 3
+              div.p3-desc Agenda tu plan de reuniones en línea
+    section.part-4.d-flex.justify-content-center.align-items-center
+      div.btn-3.fw#btn-p4
+        div ¿Quieres ser un asesor Kunde?
+        div.fw.btn-1 Regístrate aquí
+    include prontodisponible 
+    include footer

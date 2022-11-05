@@ -1,0 +1,92 @@
+doctype html
+html
+  head
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
+    link(rel="stylesheet" href="style.css")
+    link(rel="stylesheet" href="./nav/nav.css")
+    link(rel="stylesheet" href="./asesores-header/asesores-header.css")
+    link(rel="stylesheet" href="./asesores-perfil/asesores-perfil.css")
+    link(rel="stylesheet" href="./footer/footer.css")
+    link(rel="stylesheet" href="./prontodisponible/prontodisponible.css")
+    link(rel="preconnect" href="https://fonts.googleapis.com")
+    link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet")
+  body
+    include nav
+    include asesores-header
+    section.asesores-perfil_dir.d-flex.flex-column.align-items-center
+      div
+        div.fp Inicio  &nbsp&nbsp I  Marketing Digital &nbsp  I &nbsp  Stuan Marson
+      div(style="margin-top: 14px").d-none.d-md-flex.justify-content-start
+        div(style="font-size: 25px;") Stuan Marson
+    section.asesores-perfil_details.d-flex.justify-content-center(style="margin-top: 10px;")
+      div.asesores-perfil_details_container.d-flex.flex-column.flex-md-row.justify-content-md-between
+        div
+          div.asesores-perfil-block_perfil
+            div.d-flex.flex-column.justify-content-center.align-items-center
+              img(src="https://pbs.twimg.com/media/Fgi241WWYAUNXBy?format=png&name=120x120", alt="", style="width: 92px; margin-bottom: 10px")
+              div Stuan Marson
+              div.d-flex.align-items-center
+                div(style="width:13px; margin-right: 6px").d-flex.align-items-center
+                  img(src="https://pbs.twimg.com/media/Fgi241XX0AYXTdy?format=webp&name=tiny", alt="", style="width:13px;")
+                div 9.5
+            div There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+          div.asesores-perfil-block
+            div Especialidad
+            div Marketing Digital
+        div
+          div.asesores-perfil-block.asesores-perfil-block_description
+            div Descripción profesional
+            div There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,
+          div.asesores-perfil-block.asesores-perfil-block_experiencia
+            div Experiencia profesional
+            div 
+              div 
+                div 2015 - 2021 #[br] <b> Lincoln Company </b>
+                div Administrador #[br] Matagal na nating alam na nakukuha ang atensyo n ng nagbabasa ang nababas
+              div
+                div 2015 - 2021 #[br] <b> Lincoln Company </b>
+                div Administrador #[br] Matagal na nating alam na nakukuha ang atensyo n ng nagbabasa ang nababas
+          div.asesores-perfil-block.asesores-perfil-block_experiencia
+            div Estudios
+            div 
+              div 
+                div 2015 - 2021 #[br] <b> Lincoln Company </b>
+                div Administrador #[br] Matagal na nating alam na nakukuha ang atensyo n ng nagbabasa ang nababas
+          div.asesores-perfil-block
+            div Linked In
+            div http://www.linkedin.com
+          div.asesores-perfil-block
+            div Video
+            div.asesores-perfil-block_video 
+        div.d-flex.flex-column.align-items-center
+          div.asesores-perfil-block
+            div Disponibilidad
+            div(style="padding: 14px 0px 17px 17px")
+              div.asesores-perfil-block_fechas
+                div Lunes
+                div.d-flex.flex-wrap
+                  div 8:00 am
+                  div 9:00 am
+                  div 10:00 am
+                  div 11:00 am
+                  div 12:00 am
+                  div 1:00 pm
+              div.asesores-perfil-block_fechas
+                div Martes
+                div.d-flex.flex-wrap
+                  div 8:00 am
+                  div 9:00 am
+                  div 10:00 am
+                  div 11:00 am
+                  div 12:00 am
+                  div 1:00 pm
+          div.asesores-perfil-block
+            div Precio por tipo de servicio
+            div(style="line-height: 28.5px; padding: 14px 17px 17px 17px") 1 hora : $20 #[br] 5 horas : $15 #[br] 10 horas : $10 #[br] Hora por Trabajo a Solicitud : $10
+          div.asesores-perfil-block Reservar cita
+    include prontodisponible
+    include footer
